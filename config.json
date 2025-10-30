@@ -1,0 +1,48 @@
+{
+  "app_name": "Asistente IA Autónomo",
+  "version": "2.0.0",
+  "description": "Asistente de programación autónomo con memoria a largo plazo",
+  
+  "system": {
+    "log_file": "agent_debug.log",
+    "memory_dir": "agent_memory",
+    "tools_dir": "agent_tools",
+    "developments_dir": "desarrollos",
+    "api_keys_file": "keys.json",
+    "max_steps_per_task": 10,
+    "step_increment": 10
+  },
+  
+  "models": {
+    "ollama": {
+      "embedding_model": "nomic-embed-text",
+      "default_models": [
+        "dolphin-mistral:7b",
+        "rfc/whiterabbitneo:latest",
+        "phi3:mini"
+      ]
+    },
+    "gemini": {
+      "preferred_models": [
+        "models/gemini-2.5-flash-preview-09-2025",
+        "models/gemini-2.5-flash-lite-preview-09-2025",
+        "models/gemini-2.5-flash-lite",
+        "models/gemini-pro",
+        "models/gemini-1.5-pro",
+        "models/gemini-1.5-flash"
+      ],
+      "safety_settings": {
+        "HARM_CATEGORY_HARASSMENT": "block_none",
+        "HARM_CATEGORY_DANGEROUS_CONTENT": "block_none"
+      }
+    }
+  },
+  
+  "features": {
+    "memory_enabled": true,
+    "dynamic_tools": true,
+    "model_fallback": true,
+    "resource_monitoring": true,
+    "auto_save": true
+  }
+}

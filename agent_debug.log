@@ -1,0 +1,129 @@
+2025-10-30 14:24:32,520 - agent - DEBUG - Herramienta dinámica cargada: get_environment_info
+2025-10-30 14:24:32,520 - agent - DEBUG - Herramienta dinámica cargada: get_python_info
+2025-10-30 14:24:32,520 - agent - DEBUG - Herramienta dinámica cargada: get_system_info
+2025-10-30 14:24:32,520 - agent - DEBUG - Herramienta dinámica cargada: get_system_resources
+2025-10-30 14:24:32,520 - agent - INFO - Herramientas cargadas: ['write_file', 'read_file', 'run_shell_command', 'get_current_datetime', 'finish_task', 'request_more_steps', 'return_text', 'get_environment_info', 'get_python_info', 'get_system_info', 'get_system_resources']
+2025-10-30 14:24:33,728 - agent - INFO - Modelo Gemini seleccionado: models/gemini-2.5-flash-preview-09-2025
+2025-10-30 14:24:33,728 - agent - INFO - Gemini configurado como proveedor principal
+2025-10-30 14:24:33,840 - agent - INFO - Sistema de memoria inicializado correctamente
+2025-10-30 14:24:33,840 - agent - DEBUG - Herramienta dinámica cargada: get_environment_info
+2025-10-30 14:24:33,840 - agent - DEBUG - Herramienta dinámica cargada: get_python_info
+2025-10-30 14:24:33,840 - agent - DEBUG - Herramienta dinámica cargada: get_system_info
+2025-10-30 14:24:33,840 - agent - DEBUG - Herramienta dinámica cargada: get_system_resources
+2025-10-30 14:24:33,840 - agent - INFO - Herramientas cargadas: ['write_file', 'read_file', 'run_shell_command', 'get_current_datetime', 'finish_task', 'request_more_steps', 'return_text', 'get_environment_info', 'get_python_info', 'get_system_info', 'get_system_resources']
+2025-10-30 14:24:33,856 - agent - INFO - TaskManager inicializado correctamente
+2025-10-30 14:24:37,060 - agent - INFO - Nueva tarea iniciada: bab9c6a5-4c94-410f-a157-f6692667267d
+2025-10-30 14:24:39,463 - agent - DEBUG - Herramienta ejecutada: return_text
+2025-10-30 14:24:42,256 - agent - DEBUG - Herramienta ejecutada: return_text
+2025-10-30 14:24:45,206 - agent - DEBUG - Herramienta ejecutada: return_text
+2025-10-30 14:24:48,121 - agent - DEBUG - Herramienta ejecutada: return_text
+2025-10-30 14:24:52,464 - agent - DEBUG - Herramienta ejecutada: return_text
+2025-10-30 14:24:57,373 - agent - DEBUG - Herramienta ejecutada: finish_task
+2025-10-30 14:28:21,590 - agent - INFO - Nueva tarea iniciada: b70b6a22-12e4-4037-9861-438f920ac02d
+2025-10-30 14:28:25,180 - agent - INFO - Ejecutando comando: mkdir -p dev tools
+2025-10-30 14:28:25,199 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:28:28,422 - agent - INFO - Ejecutando comando: mkdir -p asistente_dev/proyectos asistente_dev/accesorios
+2025-10-30 14:28:28,445 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:28:31,328 - agent - INFO - Ejecutando comando: mkdir desarrollo
+2025-10-30 14:28:31,345 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:28:38,961 - agent - INFO - Ejecutando comando: mkdir assistant_workspace
+2025-10-30 14:28:38,976 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:28:42,416 - agent - INFO - Ejecutando comando: mkdir -p autonomous_dev/dev autonomous_dev/addons
+2025-10-30 14:28:42,431 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:28:51,581 - agent - DEBUG - Herramienta ejecutada: finish_task
+2025-10-30 14:29:14,382 - agent - INFO - Nueva tarea iniciada: 4c4692c5-03de-4c8e-ac37-a17906993481
+2025-10-30 14:29:18,730 - agent - DEBUG - Herramienta ejecutada: finish_task
+2025-10-30 14:29:50,954 - agent - INFO - Nueva tarea iniciada: 19238cc6-4549-48e7-b85a-1d30f3989dca
+2025-10-30 14:29:54,281 - agent - DEBUG - Herramienta ejecutada: get_system_info
+2025-10-30 14:29:59,722 - agent - INFO - Archivo escrito: test_capability.py
+2025-10-30 14:29:59,722 - agent - DEBUG - Herramienta ejecutada: write_file
+2025-10-30 14:30:04,320 - agent - DEBUG - Herramienta ejecutada: get_python_info
+2025-10-30 14:30:08,493 - agent - INFO - Ejecutando comando: python test_capability.py
+2025-10-30 14:30:08,556 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:30:12,636 - agent - INFO - Archivo escrito: input.txt
+2025-10-30 14:30:12,636 - agent - DEBUG - Herramienta ejecutada: write_file
+2025-10-30 14:30:18,219 - agent - INFO - Archivo escrito: file_processor.py
+2025-10-30 14:30:18,223 - agent - DEBUG - Herramienta ejecutada: write_file
+2025-10-30 14:30:20,612 - agent - INFO - Ejecutando comando: python file_processor.py
+2025-10-30 14:30:20,679 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:30:23,665 - agent - DEBUG - Herramienta ejecutada: read_file
+2025-10-30 14:30:27,690 - agent - INFO - Ejecutando comando: type output.txt
+2025-10-30 14:30:27,703 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:30:35,203 - agent - INFO - Ejecutando comando: del test_capability.py file_processor.py input.txt output.txt
+2025-10-30 14:30:35,223 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:30:49,192 - agent - INFO - Nueva tarea iniciada: 6d6f9bf3-c8f2-46e7-8c66-0506d9614596
+2025-10-30 14:30:52,251 - agent - INFO - Ejecutando comando: ls -F
+2025-10-30 14:30:52,277 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:30:55,312 - agent - INFO - Ejecutando comando: dir
+2025-10-30 14:30:55,322 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:30:59,059 - agent - DEBUG - Herramienta ejecutada: read_file
+2025-10-30 14:31:02,366 - agent - DEBUG - Herramienta ejecutada: read_file
+2025-10-30 14:31:06,311 - agent - DEBUG - Herramienta ejecutada: read_file
+2025-10-30 14:31:12,472 - agent - INFO - Ejecutando comando: python install.py
+2025-10-30 14:31:12,551 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:31:34,613 - agent - INFO - Archivo escrito: install.py
+2025-10-30 14:31:34,613 - agent - DEBUG - Herramienta ejecutada: write_file
+2025-10-30 14:31:37,752 - agent - INFO - Ejecutando comando: python install.py
+2025-10-30 14:31:39,742 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:31:47,123 - agent - INFO - Ejecutando comando: dir
+2025-10-30 14:31:47,131 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:31:55,477 - agent - INFO - Ejecutando comando: dir
+2025-10-30 14:31:55,492 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:31:58,101 - agent - INFO - Nueva tarea iniciada: ab475687-c834-4af2-8f3b-63f88423bae5
+2025-10-30 14:32:02,022 - agent - DEBUG - Herramienta ejecutada: return_text
+2025-10-30 14:32:04,955 - agent - DEBUG - Herramienta ejecutada: return_text
+2025-10-30 14:32:09,497 - agent - DEBUG - Herramienta ejecutada: return_text
+2025-10-30 14:32:12,779 - agent - DEBUG - Herramienta ejecutada: return_text
+2025-10-30 14:32:15,420 - agent - DEBUG - Herramienta ejecutada: return_text
+2025-10-30 14:32:18,605 - agent - INFO - Ejecutando comando: ls -F
+2025-10-30 14:32:18,623 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:32:21,334 - agent - DEBUG - Herramienta ejecutada: get_system_info
+2025-10-30 14:32:24,453 - agent - INFO - Ejecutando comando: dir
+2025-10-30 14:32:24,471 - agent - DEBUG - Herramienta ejecutada: run_shell_command
+2025-10-30 14:32:29,505 - agent - DEBUG - Herramienta ejecutada: return_text
+2025-10-30 14:32:34,276 - agent - DEBUG - Herramienta ejecutada: return_text
+2025-10-30 14:33:30,612 - agent - DEBUG - Herramienta dinámica cargada: get_environment_info
+2025-10-30 14:33:30,612 - agent - DEBUG - Herramienta dinámica cargada: get_python_info
+2025-10-30 14:33:30,612 - agent - DEBUG - Herramienta dinámica cargada: get_system_info
+2025-10-30 14:33:30,612 - agent - DEBUG - Herramienta dinámica cargada: get_system_resources
+2025-10-30 14:33:30,612 - agent - INFO - Herramientas cargadas: ['write_file', 'read_file', 'run_shell_command', 'get_current_datetime', 'finish_task', 'request_more_steps', 'return_text', 'get_environment_info', 'get_python_info', 'get_system_info', 'get_system_resources']
+2025-10-30 14:33:31,976 - agent - INFO - Modelo Gemini seleccionado: models/gemini-2.5-flash-preview-09-2025
+2025-10-30 14:33:31,976 - agent - INFO - Gemini configurado como proveedor principal
+2025-10-30 14:33:32,068 - agent - INFO - Sistema de memoria inicializado correctamente
+2025-10-30 14:33:32,084 - agent - DEBUG - Herramienta dinámica cargada: get_environment_info
+2025-10-30 14:33:32,084 - agent - DEBUG - Herramienta dinámica cargada: get_python_info
+2025-10-30 14:33:32,084 - agent - DEBUG - Herramienta dinámica cargada: get_system_info
+2025-10-30 14:33:32,084 - agent - DEBUG - Herramienta dinámica cargada: get_system_resources
+2025-10-30 14:33:32,084 - agent - INFO - Herramientas cargadas: ['write_file', 'read_file', 'run_shell_command', 'get_current_datetime', 'finish_task', 'request_more_steps', 'return_text', 'get_environment_info', 'get_python_info', 'get_system_info', 'get_system_resources']
+2025-10-30 14:33:32,084 - agent - INFO - TaskManager inicializado correctamente
+2025-10-30 14:38:52,618 - agent - DEBUG - Herramienta dinámica cargada: get_environment_info
+2025-10-30 14:38:52,618 - agent - DEBUG - Herramienta dinámica cargada: get_python_info
+2025-10-30 14:38:52,618 - agent - DEBUG - Herramienta dinámica cargada: get_system_info
+2025-10-30 14:38:52,618 - agent - DEBUG - Herramienta dinámica cargada: get_system_resources
+2025-10-30 14:38:52,618 - agent - INFO - Herramientas cargadas: ['write_file', 'read_file', 'run_shell_command', 'get_current_datetime', 'finish_task', 'request_more_steps', 'return_text', 'get_environment_info', 'get_python_info', 'get_system_info', 'get_system_resources']
+2025-10-30 14:38:53,762 - agent - INFO - Modelo Gemini seleccionado: models/gemini-2.5-flash-preview-09-2025
+2025-10-30 14:38:53,762 - agent - INFO - Gemini configurado como proveedor principal
+2025-10-30 14:38:53,859 - agent - INFO - Sistema de memoria inicializado correctamente
+2025-10-30 14:38:53,859 - agent - DEBUG - Herramienta dinámica cargada: get_environment_info
+2025-10-30 14:38:53,859 - agent - DEBUG - Herramienta dinámica cargada: get_python_info
+2025-10-30 14:38:53,872 - agent - DEBUG - Herramienta dinámica cargada: get_system_info
+2025-10-30 14:38:53,872 - agent - DEBUG - Herramienta dinámica cargada: get_system_resources
+2025-10-30 14:38:53,872 - agent - INFO - Herramientas cargadas: ['write_file', 'read_file', 'run_shell_command', 'get_current_datetime', 'finish_task', 'request_more_steps', 'return_text', 'get_environment_info', 'get_python_info', 'get_system_info', 'get_system_resources']
+2025-10-30 14:38:53,872 - agent - INFO - TaskManager inicializado correctamente
+2025-10-30 14:50:16,535 - agent - DEBUG - Herramienta dinámica cargada: get_environment_info
+2025-10-30 14:50:16,535 - agent - DEBUG - Herramienta dinámica cargada: get_python_info
+2025-10-30 14:50:16,541 - agent - DEBUG - Herramienta dinámica cargada: get_system_info
+2025-10-30 14:50:16,541 - agent - DEBUG - Herramienta dinámica cargada: get_system_resources
+2025-10-30 14:50:16,541 - agent - INFO - Herramientas cargadas: ['write_file', 'read_file', 'run_shell_command', 'get_current_datetime', 'finish_task', 'request_more_steps', 'return_text', 'get_environment_info', 'get_python_info', 'get_system_info', 'get_system_resources']
+2025-10-30 14:50:17,580 - agent - INFO - Modelo Gemini seleccionado: models/gemini-2.5-flash-preview-09-2025
+2025-10-30 14:50:17,580 - agent - INFO - Gemini configurado como proveedor principal
+2025-10-30 14:50:17,675 - agent - INFO - Sistema de memoria inicializado correctamente
+2025-10-30 14:50:17,675 - agent - DEBUG - Herramienta dinámica cargada: get_environment_info
+2025-10-30 14:50:17,675 - agent - DEBUG - Herramienta dinámica cargada: get_python_info
+2025-10-30 14:50:17,691 - agent - DEBUG - Herramienta dinámica cargada: get_system_info
+2025-10-30 14:50:17,691 - agent - DEBUG - Herramienta dinámica cargada: get_system_resources
+2025-10-30 14:50:17,691 - agent - INFO - Herramientas cargadas: ['write_file', 'read_file', 'run_shell_command', 'get_current_datetime', 'finish_task', 'request_more_steps', 'return_text', 'get_environment_info', 'get_python_info', 'get_system_info', 'get_system_resources']
+2025-10-30 14:50:17,691 - agent - INFO - TaskManager inicializado correctamente
+2025-10-30 14:50:34,552 - agent - INFO - Nueva tarea iniciada: 03605600-8457-466f-a4c0-ddee05fbaf68
+2025-10-30 14:50:38,745 - agent - DEBUG - Herramienta ejecutada: return_text
+2025-10-30 14:50:43,435 - agent - DEBUG - Herramienta ejecutada: finish_task
